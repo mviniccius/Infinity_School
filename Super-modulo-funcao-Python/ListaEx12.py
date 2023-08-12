@@ -4,12 +4,12 @@
 
 def calcula_media(numeros: list) -> float:
     quantidade = len(numeros)
-    soma = 0
+    soma = 0        #variavel para acumular os valores
     for i in numeros:
         soma +=i
     
     media = soma / quantidade
     return media
-
+#main
 lista_num = [8, 15, 23, 4]
 print(calcula_media(lista_num))
