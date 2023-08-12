@@ -6,5 +6,5 @@ def percorrer(num: int) -> int:
     return percorrer(num-1)
     
     
-print(percorrer(4))
+percorrer(4)
         
