@@ -19,7 +19,7 @@ botao7 = Button(
     font=('Arial', 16),
     height=2,
     bg= '#F7FDA7',
-    activebackground='#F7FDA7',
+    activebackground='#ccc',
 )
 botao7.grid(row=1, column=0, sticky=EW)
 
