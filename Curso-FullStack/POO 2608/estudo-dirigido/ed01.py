@@ -9,22 +9,22 @@ altura_pessoa = 1.68
 peso_pessoa = 80.0
 
 # Qual o tipo de dado armazenado na variável 'nome_pessoa'?
-# Resposta: 
+# Resposta: String
 
 # Qual o tipo de dado armazenado na variável 'apelido_pessoa'?
-# Resposta: 
+# Resposta: String
 
 # Qual o tipo de dado armazenado na variável 'pessoa_brasileira'?
-# Resposta: 
+# Resposta: Boolean
 
 # Qual o tipo de dado armazenado na variável 'pessoa_carioca'?
-# Resposta: 
+# Resposta: Boolean
 
 # Qual o tipo de dado armazenado na variável 'idade_pessoa'?
-# Resposta: 
+# Resposta: Inteiro
 
 # Qual o tipo de dado armazenado na variável 'altura_pessoa'?
-# Resposta: 
+# Resposta: Float
 
 # Qual o tipo de dado armazenado na variável 'peso_pessoa'?
-# Resposta: 
+# Resposta: Float

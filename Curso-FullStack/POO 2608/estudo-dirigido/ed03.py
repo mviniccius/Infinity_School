@@ -20,7 +20,8 @@ set_numeros = {1,2,3,4,5}
 
 print(type(tupla_numero)) # exibindo o tipo de dado armazenado pela variável 'tupla_numero'
 print(type(set_numeros))  # exibindo o tipo de dado armazenado pela variável 'set_numeros'
-
+print(tupla_numero)
+print(set_numeros)
 # Em outras palavras, temos (até então) quatro tipo de dados não primitivos:
 #
 # listas, dicionários, tuplas e sets.
