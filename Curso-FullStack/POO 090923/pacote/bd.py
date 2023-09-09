@@ -14,4 +14,15 @@ class BancoDeDados:
         print(f"ID: {id}")
         print(f'Nome: {self.dados[id - 1].nome_aluno()}')
         print(f'Idade: {self.dados[id - 1].idade_aluno()}')
+    
+    def adicionar_dado(self, nome: str, idade: str) -> None:
+    #adicionar a resposta aqui
+        self.dados.append(Aluno(nome, idade))
+        print(self.mostrar_dado(len(self.dados)))
+    
+    def adicionar_dado1(self, aluno:Aluno) -> None:
+    #adicionar a resposta aqui    
+        self.dados.append(aluno)
+        print(self.mostrar_dado(len(self.dados)))
+    
         
