@@ -23,7 +23,7 @@ class CRUD:
         self.conexao.close()
         return True
     
-    def criar(self, nome :str, idade: int) -> None:
+    def criar(self, nome :str, idade: str) -> None:
         if self.__conectar() == True:            
             self.cursor.execute("INSERT INTO pessoas (nome, idade) VALUES (?, ?)", (nome, idade))
             self.conexao.commit()
