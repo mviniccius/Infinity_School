@@ -10,3 +10,10 @@ class Jogadores:
         print(f"Nome do jogador: {self.nome}")
         print(f"Time atual: {self.nome_do_time}")
         print(f"Numero da camisa: {self.numero_camisa}")
+
+    def jogador_no_time(self) -> None:
+        print(f"Nome do jogador: {self.nome}")
+        print(f"Numero da camisa: {self.numero_camisa}")
+
+    def nome_do_time(self) -> str:
+        return self.nome_do_time
