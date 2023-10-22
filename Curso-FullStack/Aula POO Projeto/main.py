@@ -21,7 +21,7 @@ while(controle):
         print("Cadastro Jogador")
         nome = input("Digite o nome:\n")
         nome_do_time = input("Digite o time:\n")
-        
+        nome_do_time = nome_do_time.upper()
         numero_camisa = input("Digite o numero da camisa\n")
         # if nome do time senao cadastrar dentro do while
         jogador = Jogadores(nome, nome_do_time,numero_camisa)
@@ -35,6 +35,7 @@ while(controle):
         print("\nDados dos jogadores")
         
         for jogador in lista_de_jogadores:
+            
             print(f"Nome:{jogador.nome}\nTime: {jogador.nome_do_time}\nNumero da camisa: {jogador.numero_camisa}")
     
     elif menu == '3':
@@ -43,7 +44,7 @@ while(controle):
 
     elif menu == '4':
             time = input("Digite o nome do time para imprimir os jogadores")
-            
+            time = time.upper()
             if time not in lista_de_times:
                  print("Nao existe o time informado")
             else:
